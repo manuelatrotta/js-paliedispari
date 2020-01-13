@@ -19,13 +19,13 @@ var somma = sceltaNumero + randomNumber;
 console.log(somma);
 if(somma % 2 == 0 && sceltaUtente == 'pari'){
   console.log('hai vinto');
- }
+}
 else if(somma % 2 != 0 && sceltaUtente == 'dispari'){
   console.log('hai vinto');
- }
+}
 else if (somma % 2 == 0 && sceltaUtente == 'dispri'){
   console.log('hai perso');
- }
+}
 else{
   console.log('hai perso');
- }
+}
