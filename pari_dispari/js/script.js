@@ -7,6 +7,7 @@ console.log(sceltaNumero);
 //Generiamo un numero random (sempre da 1 a 5) per il computer.
 var randomNumber = getRandom(1, 5);
 console.log(randomNumber);
+
 function getRandom (min, max){
   min = Math.ceil(1);
   max = Math.floor(5);
