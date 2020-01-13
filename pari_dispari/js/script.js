@@ -23,7 +23,7 @@ if(somma % 2 == 0 && sceltaUtente == 'pari'){
 else if(somma % 2 != 0 && sceltaUtente == 'dispari'){
   console.log('hai vinto');
 }
-else if (somma % 2 == 0 && sceltaUtente == 'dispri'){
+else if (somma % 2 == 0 && sceltaUtente == 'dispari'){
   console.log('hai perso');
 }
 else{
