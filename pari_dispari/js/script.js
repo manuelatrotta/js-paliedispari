@@ -17,3 +17,15 @@ function getRandom (min, max){
 //Sommiamo i due numeri e dichiariamo chi ha vinto (controlliamo se la somma da pari o dispari).
 var somma = sceltaNumero + randomNumber;
 console.log(somma);
+if(somma % 2 == 0 && sceltaUtente == 'pari'){
+  console.log('hai vinto');
+ }
+else if(somma % 2 != 0 && sceltaUtente == 'dispari'){
+  console.log('hai vinto');
+ }
+else if (somma % 2 == 0 && sceltaUtente == 'dispri'){
+  console.log('hai perso');
+ }
+else{
+  console.log('hai perso');
+ }
