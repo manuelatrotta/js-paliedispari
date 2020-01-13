@@ -15,3 +15,5 @@ function getRandom (min, max){
 }
 
 //Sommiamo i due numeri e dichiariamo chi ha vinto (controlliamo se la somma da pari o dispari).
+var somma = sceltaNumero + randomNumber;
+console.log(somma);
