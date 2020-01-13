@@ -11,7 +11,7 @@ console.log(randomNumber);
 function getRandom (min, max){
   min = Math.ceil(1);
   max = Math.floor(5);
-  var random = Math.floor(Math.random() * (5 - 1 + 1) + 1);
+  var random = Math.floor(Math.random() * (max - min + min) + 1);
   return random;
 }
 
