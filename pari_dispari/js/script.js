@@ -18,15 +18,21 @@ function getRandom (min, max){
 //Sommiamo i due numeri e dichiariamo chi ha vinto (controlliamo se la somma da pari o dispari).
 var somma = sceltaNumero + randomNumber;
 console.log(somma);
-if(somma % 2 == 0 && sceltaUtente == 'pari'){
+
+
+if(sceltaUtente == pariDispari){
   console.log('hai vinto');
-}
-else if(somma % 2 != 0 && sceltaUtente == 'dispari'){
-  console.log('hai vinto');
-}
-else if (somma % 2 == 0 && sceltaUtente == 'dispari'){
+}else{
   console.log('hai perso');
 }
-else{
-  console.log('hai perso');
+
+var pariDispari = controllo(somma);
+
+function controllo(numero){
+  if(somma % 2 == 0){
+    var pariDispari = 'pari';
+   }else{
+    var pariDispari = 'dispari';
+  }
+  return pariDispari;
 }
